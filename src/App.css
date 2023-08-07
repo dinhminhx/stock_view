@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #070a1b;
+  color: white;
+}
+.main-container {
+  padding: 50px 130px;
+}
