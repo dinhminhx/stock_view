@@ -6,7 +6,7 @@ import _ from 'lodash';
 import SearchContext from "./SearchContext";
 
 const Stock = () => {
-  axios.defaults.baseURL = 'http://localhost:8000';
+  axios.defaults.baseURL = 'https://stock-view-backend.onrender.com';
   const [stockChartXValues, setStockChartXValues] = useState([]);
   const [stockChartYValues, setStockChartYValues] = useState([]);
   const [stockData, setStockData] = useState([]);
